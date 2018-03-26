@@ -1,0 +1,7 @@
+REPLACE: 
+attributeState "open", label:'${name}', icon:"st.contact.contact.open", backgroundColor:"#e86d13"
+attributeState "closed", label:'${name}', icon:"st.contact.contact.closed", backgroundColor:"#00a0dc"
+
+WITH:
+attributeState("open", label: "Dry", icon:"st.alarm.water.dry", backgroundColor:"#ffffff")
+attributeState("closed", label: "Wet", icon:"st.alarm.water.wet", backgroundColor:"#00a0dc")
